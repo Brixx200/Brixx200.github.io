@@ -92,9 +92,11 @@ img {
     font-family: Papyrus, fantasy;
 }
 #portfolio {
-    list-style-type: square;
+    list-style-type: circle;
     padding-left:30px;
     font-family:Papyrus, fantasy;
+    font-size: larger;
+    padding-bottom: 50px;
 }
 #portfolio-li{
     background: #fff;
@@ -102,6 +104,7 @@ img {
     border-radius: 50px;
     margin-bottom:99px;
     font-family: fantasy, Papyrus;
+    font-size: xx-large;
 
 }
 #portfolio-li:hover{
