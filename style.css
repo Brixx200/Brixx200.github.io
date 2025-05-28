@@ -1,11 +1,13 @@
-body{
-    background: (#c47bff);
-    color: (#ffffff)
-    padding: 10px;
+body{ 
+   background-image: linear-gradient(to bottom right,#bd48d4,#f281c5 )
+   
+   
+    
 }
 #all-contents {
     max-width: 800px;
     margin: auto;
+    
 }
 /*navigation menu */
 nav{
@@ -13,7 +15,7 @@ nav{
     margin: 20px;
     display: flex;
     padding: 10px;
-    font-family: Cambria, serif;
+    font-family: papyrus, fantasy;
 }
 h1 {
     display: flex;
@@ -45,15 +47,22 @@ main {
     background: (#ce72e0);
     display: flex;
     margin-top: 20px;
+    text-decoration:none;
+    color:white
+    
+    
 }
 
 .sidebar {
     margin-right: 25px;
     padding: 10px;
+    font-family: papyrus, fantasy;
 }
 
 .sidebar-img {
     width: 200px;
+    border-width: 20px;
+    
 }
 
 .content {
@@ -63,14 +72,43 @@ main {
 
 /* interests section styles */
 #interests {
-    border: 4px rgb(163, 44, 248) ridge;
+    border: 4px rgb(105, 9, 174) ridge;
     padding: 8px;
     margin-top: 20px;
+    border-style: dotted;
+    
 }
 
 h2, h3 {
     margin: 0px;
 }
-.sidebar-img{
+img {
+    border-radius: 90%;
     
+}
+/***Portfolio styles***/
+.content h2{
+    color: white;
+    font-family: Papyrus, fantasy;
+}
+#portfolio {
+    list-style-type: square;
+    padding-left:30px;
+    font-family:Papyrus, fantasy;
+}
+#portfolio-li{
+    background: #fff;
+    padding: 50px;
+    border-radius: 50px;
+    margin-bottom:99px;
+    font-family: fantasy, Papyrus;
+
+}
+#portfolio-li:hover{
+    Background:#eee
+}
+#portfolio-a{
+    text-decoration: fantasy, Papyrus;
+    color:#eee
+
 }
