@@ -27,8 +27,8 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    toggleGrid();
-
+    //toggleGrid();
+    
 
     // TODO 2 - Create Platforms
    createPlatform(10,300,100,10,'hotPink');
@@ -54,22 +54,23 @@ $(function () {
    createPlatform(750,120,10,200,"hotPink");
    createPlatform(750,320,200,10,"hotPink");
    //hidden collectable wall//
-   createPlatform(1300,350,10,300,"hotPink");
+   createPlatform(1300,350,10,250,"hotPink");
+   createPlatform(1275,475,30,10,"hotPink");
    //grass//
    createPlatform(100,700,10,50,"green");
-   createPlatform(125,700,10,50,"green");
+   createPlatform(125,700,10,400,"green");
    createPlatform(150,700,10,50,"green");
    createPlatform(200,700,10,50,"green");
-   createPlatform(225,700,10,50,"green");
-   createPlatform(250,700,10,50,"green");
+   createPlatform(225,700,10,55,"green");
+   createPlatform(250,700,10,59,"green");
    createPlatform(300,700,10,50,"green");
-   createPlatform(325,700,10,50,"green");
+   createPlatform(325,700,10,60,"green");
    createPlatform(350,700,10,50,"green");
-   createPlatform(400,700,10,50,"green");
+   createPlatform(400,700,10,62,"green");
    createPlatform(425,700,10,50,"green");
-   createPlatform(450,700,10,50,"green");
+   createPlatform(450,700,10,65,"green");
    createPlatform(500,700,10,50,"green");
-   createPlatform(525,700,10,50,"green");
+   createPlatform(525,700,10,49,"green");
    createPlatform(550,700,10,50,"green");
    createPlatform(600,700,10,50,"green");
    createPlatform(625,700,10,50,"green");
@@ -77,7 +78,51 @@ $(function () {
    createPlatform(700,700,10,50,"green");
    createPlatform(725,700,10,50,"green");
    createPlatform(750,700,10,50,"green");
-   
+   createPlatform(800,700,10,50,"green");
+   createPlatform(825,700,10,50,"green");
+   createPlatform(850,700,10,50,"green");
+   createPlatform(900,700,10,50,"green");
+   createPlatform(925,700,10,50,"green");
+   createPlatform(950,700,10,50,"green");
+   createPlatform(1000,700,10,50,"green");
+   createPlatform(1025,700,10,50,"green");
+   createPlatform(1050,700,10,50,"green");
+   createPlatform(1100,700,10,50,"green");
+   createPlatform(1125,700,10,50,"green");
+   createPlatform(1150,700,10,50,"green");
+   createPlatform(1200,700,10,50,"green");
+   createPlatform(1225,700,10,50,"green");
+   createPlatform(1250,700,10,50,"green");
+   createPlatform(1300,700,10,50,"green");
+   createPlatform(1325,700,10,50,"green");
+   createPlatform(1350,700,10,50,"green");
+   createPlatform(25,700,10,50,"green");
+   createPlatform(50,700,10,50,"green");
+   createPlatform(75,700,10,50,"green");
+   createPlatform(175,700,10,50,"green");
+   createPlatform(275,700,10,50,"green");
+   createPlatform(375,700,10,50,"green");
+   createPlatform(475,700,10,50,"green");
+   createPlatform(575,700,10,50,"green");
+   createPlatform(675,700,10,50,"green");
+   createPlatform(775,700,10,50,"green");
+   createPlatform(875,700,10,50,"green");
+   createPlatform(975,700,10,50,"green");
+   createPlatform(1075,700,10,50,"green");
+   createPlatform(1175,700,10,50,"green");
+   createPlatform(1275,700,10,50,"green");
+   createPlatform(1375,700,10,50,"green");
+   //clouds
+  
+   createPlatform(1200,100,75,50,'white');
+   createPlatform(1200,50,10,50,'white');
+   createPlatform(1150,50,60,100,'white');
+   createPlatform(1100,100,50,50,'white');
+
+   createPlatform(450,275,100,50,'white');
+   createPlatform(540,250,100,75,'white');
+   //sun
+   createPlatform(0,0,125,125,'yellow');
 
 
 
@@ -92,8 +137,8 @@ $(function () {
     // TODO 4 - Create Cannons
 
     createCannon("left",300,2000);
-    createCannon('bottom',1075,750,);
-    createCannon('top',250,1000,);
+    createCannon('bottom',1075,2000,);
+    createCannon('top',250,2000,);
 
     
     
