@@ -6,12 +6,17 @@
 	<title>Bouncing Box</title>
 	<script src="jquery.min.js"></script>
 	<style>
+		body{
+         background-color: #ed9fff
+		}
 		.box {
 			width: 70px;
 			height: 70px;
-			background-color: teal;
+			background-color: rgb(228, 141, 154);
 			font-size: 300%;
 			text-align: center;
+			font-family: fantasy, papyrus;
+			color: white;
 			user-select: none;
 			display: block;
 			position: absolute;
@@ -44,7 +49,9 @@
 			var box = jQuery('.box');	// reference to the HTML .box element
 			var board = jQuery('.board');	// reference to the HTML .board element
 			var boardWidth = board.width();	// the maximum X-Coordinate of the screen
-
+            var positionX = 0;
+			var points = 0;
+			var speed = 10;
 			// Every 50 milliseconds, call the update Function (see below)
 			setInterval(update, 50);
 
@@ -75,7 +82,15 @@
 			turn it around! 
 			*/
 			function update() {
-
+		      moveBoxTo(positionX);
+			  positionX = positionX + speed;
+			  if (positionX > boardWidth){
+				speed*= -1;
+			  }
+			  if (positionX < 0){
+				speed *= -1;
+			  }
+              
 
 			};
 
@@ -85,7 +100,10 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
-
+                positionX=0;
+				points++;
+				changeBoxText(points);
+				speed = 3 * points + 10;
 
 			};
 
